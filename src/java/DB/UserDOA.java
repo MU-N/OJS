@@ -154,16 +154,15 @@ public class UserDOA {
         }
        return( ret== 1 )? true:false;
     }
+    
      public boolean update_password(String pass ,String uname) {
        
         PreparedStatement preparedStmt;
         int ret= 0 ;
         try {
             preparedStmt = con.prepareStatement(update_password);
-            
             preparedStmt.setString(1, pass);
             preparedStmt.setString(2, uname);
-
             ret = preparedStmt.executeUpdate();
             
         } catch (SQLException ex) {

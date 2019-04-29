@@ -375,14 +375,14 @@ scratch. This page gets rid of all links and provides the needed markup only.
 
                                     <!-- /.tab-pane -->
                                     <div class="tab-pane" id="changepass">
-                                        <form class="form-horizontal" action="passwordChange" method="post">
+                                        <form class="form-horizontal" action="ChangePassword" method="post">
 
                                             <div class="box-body">
                                                 <div class="form-group">
                                                     <label for="cur_pass" class ="col-sm-2">Currenet Password</label>
                                                     <div class="input-group">
                                                         <span class="input-group-addon"><i class="fa fa-key"></i></span>
-                                                        <input type="password" class="form-control" id= "cur_pass"placeholder="Current Password" name="currentPass">
+                                                        <input type="password" class="form-control" id= "cur_pass"placeholder="Current Password" name="cupass">
                                                     </div>
                                                 </div>
                                                 <div class="form-group">
